@@ -1,18 +1,24 @@
 # Propensity-Capstone-Project
 Data Science Bootcamp Final Capstone Project -Propensity Model 2024
+
 ropensity-Capstone-Project
 Propensity Model to Identify How Likely Certain Target Groups Customers Respond To The Marketing Campaign
+
 Objective
 This project is aimed at building a propensity model to identify potential customers for an insurance company to develop a tool to optimize their marketing efforts.
+
 
 Description
 Propensity modeling is a method that aims to forecast the chance that individuals, leads, and customers will engage in specific actions. This method uses statistical analysis which takes into account all the independent and confounding factors that impact customer behavior.
 
+
 Data
 The insurance company has provided a historical data set (train.csv). The company has also provided you with a list of potential customers to whom to market (test.csv). From this list of potential customers, we need to determine yes/no whether we wish to market to them.
 
+
 Input Variables:
 custAge, profession, marital, schooling, default, housing, loan, contact, month, day_of_week, campaign, pdays, previous, poutcome, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed, pmonths, pastEmail
+
 
 Output Variables:
 responded
