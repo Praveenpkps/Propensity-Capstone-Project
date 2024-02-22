@@ -20,11 +20,12 @@ We need to determine yes/no whether we wish to market to them.
 
 
 ### Input Variables:
+
 custAge, profession, marital, schooling, default, housing, loan, contact, month, day_of_week, campaign, pdays, previous, poutcome, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed, pmonths, pastEmail
 
 
 ### Output Variables:
-responded
+responded-
 
 Steps involved in building the model and identify target customers
 Started with importing necessary libraries
@@ -56,6 +57,7 @@ Before visualizing and analyzing the data seperated the categorical and numerica
 
 
 ### Visualized the data based on target column 'responded' in plots per below:
+
 Plot 1: Distribution of customer age who responded for marketing and not responded.
 Plot 2: Response based on Profession of the customer.
 Plot 3: Response of customer who have housing loan or not.
@@ -71,7 +73,9 @@ Plot 12: Distribution of employee variance rate on target column
 Plot 13: Distribution on No. of Employees
 Plot 14: Response on No. of times contacted
 Plot 15: Countplot to find out how balanced the data is in target column.
+
 ### Feature Engineering
+
 Encoding
 Encoded all categorical columns using Label Encoder.
 Scaling
@@ -133,6 +137,7 @@ As the test data is encoded and scaled we cannot get exact idea from these rows,
 
 
 ### Conclusion:
+
 . The hyperparameter tuning process using RandomizedSearchCV significantly improved the XGBoost classifier's performance, resulting in a model with an accuracy of approximately 91.4%.
 . Cross-validation results further validate the model's consistency.
 Feature importance analysis highlighted the critical role of economic factors, specifically 'nr.employed' and 'emp.var.rate.'
