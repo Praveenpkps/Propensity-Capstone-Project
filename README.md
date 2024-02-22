@@ -1,7 +1,7 @@
-# Propensity-Capstone-Project
+# Propensity-Capstone-Project-2024
 Data Science Bootcamp Final Capstone Project -Propensity Model 2024
 
-ropensity-Capstone-Project
+ropensity-Capstone-Project-2024
 Propensity Model to Identify How Likely Certain Target Groups Customers Respond To The Marketing Campaign
 
 Objective
@@ -9,11 +9,14 @@ This project is aimed at building a propensity model to identify potential custo
 
 
 Description
-Propensity modeling is a method that aims to forecast the chance that individuals, leads, and customers will engage in specific actions. This method uses statistical analysis which takes into account all the independent and confounding factors that impact customer behavior.
+Propensity modeling is a method that aims to forecast the chance that individuals, leads, and customers will engage in specific actions. 
+This method uses statistical analysis which takes into account all the independent and confounding factors that impact customer behavior.
 
 
 Data
-The insurance company has provided a historical data set (train.csv). The company has also provided you with a list of potential customers to whom to market (test.csv). From this list of potential customers, we need to determine yes/no whether we wish to market to them.
+The insurance company has provided a historical data set (train.csv). 
+The company has also provided you with a list of potential customers to whom to market (test.csv). From this list of potential customers.
+We need to determine yes/no whether we wish to market to them.
 
 
 Input Variables:
@@ -50,6 +53,8 @@ Used Z-scores to find the rows with outlier values from custAge, campaign, pdays
 Handled outliers by removing the outlier rows and saved all remaining rows as cleaned_data.
 Data visualization
 Before visualizing and analyzing the data seperated the categorical and numerical columns.
+
+
 Visualized the data based on target column 'responded' in plots per below:
 Plot 1: Distribution of customer age who responded for marketing and not responded.
 Plot 2: Response based on Profession of the customer.
